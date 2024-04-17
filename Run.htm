@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Student Form </title>
+
+ 
+</head>
+<body>
+  <h1> Welcome, can you please fill this form.. </h1>
+  <form action="index2.php"  method ="post">
+   <fieldset>
+    <legend> Student profile </legend>
+	
+	 <input type="hidden" name="action" value="Insert"> 
+	 <input type="hidden" name="action" value="Update"> 
+	 <input type="hidden" name="action" value="View"> 
+	 <input type="hidden" name="action" value="Clear"> 
+	 
+	 <label for ="studentID"> Student ID: </label>
+	 <input type="text"  name ="studentID" placeholder="Enter Student ID "><br>
+     <br>
+	 
+	 <label for ="firstName"> First Name: </label>
+	 <input type="text" name= "firstName"  placeholder="Enter First Name">
+	 
+	 <label for ="lastName"> Last Name: </label>
+	 <input type="text" Name="lastName" placeholder="Enter Last Name" ><br>
+	 <br>
+	 
+	 <label for ="Gender" > Gender: </label>
+	 <input type="radio" name="Gender" value="1"> Female 
+	 <input type="radio" name="Gender" value="2"> Male <br>
+	 <br>
+	 
+	 <label for ="DateOfBirth"> Date Of Birth: </label>
+	 <input type="date" name="DateOfBirth" placeholder="dd/mm/yyyy"><br>
+	 <br>
+	 
+	 <label for ="Adress"> Adress: </label>
+	 <input type="text" Name="Adress" placeholder="Enter Adress"><br>
+	 <br>
+	 
+	 <label for ="City"> City: </label>
+	 <input type="text" Name="City" placeholder="Enter City">
+	
+	  
+	 <label for ="Country"> Country: </label>
+	 <input type="text" Name="Country" placeholder="Enter Country"><br>
+	 <br>
+	 
+	 <label for ="tel"> tel: </label>
+	 <input type="text" Name="tel" placeholder="Enter tel"><br>
+	 <br>
+	
+	 <input type="submit" value="Insert"> 
+	 <input type="submit" value="Update"> 
+	 <input type="submit" value="View">  
+	 <input type="submit" value="Clear">  
+	 
+	 
+
+	 
+    </fieldset>
+   </form>
+  </body>
+ </html>  
